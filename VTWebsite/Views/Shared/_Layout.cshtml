@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title -VIJAYALAKSHMI TOWNSHIPS NRT PVT LTD.</title>
+    <link href="~/Content/img/favicon.png" rel="icon">
+    <link href="~/Content/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <!-- Vendor CSS Files -->
+    @Styles.Render("~/Content/css")
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Poppinsfont -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <style>
+        h3 {
+            font-family: 'Oswald';
+            font-size: 22px;
+        }
+
+        .headPara {
+            font-family: 'Oswald';
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 1px;
+        }
+
+        .SubheadPara {
+            font-family: 'Oswald';
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 1px;
+        }
+    </style>
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body style="background-image: url('~/Content/img/Home/bbbb.png');">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <h1 class="text-light">
+                    <a href="index.html"><img src="~/Content/img/Logo.png" alt="" class="img-fluid" style="padding-right:10px;"></a>
+                </h1>
+            </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="/Home/Index">HOME</a></li>
+                    <li><a class="nav-link scrollto" href="/Home/About">ABOUT US</a></li>
+                    <li><a class="nav-link scrollto" href="/Home/Projects">PROJECTS</a></li>
+                    <li><a class="nav-link scrollto" href="/Home/Galleries">GALLERY</a></li>
+                    <li><a class="nav-link scrollto" href="/Home/Blogs">BLOGS</a></li>
+                    <li><a class="nav-link scrollto" href="/Home/ContactUs">CONTACT US</a></li>
+                    <li><a class="nav-link scrollto" href="#">PARTNERS</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
+    </header>
+    <!-- ======= Hero Section ======= -->
+    @*<div class="container body-content">*@
+    <main id="main">
+        @RenderBody()
+    </main>
+    <hr />
+    @*</div>*@
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 footer-links">
+                        <img src="~/Content/img/logot.png" class="testimonial-img" alt=""><br>
+                        <ul>
+                            <li>
+                                <p class="col-md-5" style="text-align: justify;text-justify: inter-word;">
+                                    <br>
+                                    A place that lets you experience life to the fullest. We are building gated communities at prime locations growing at a lightning-fast pace.
+                                    Every customer is a respected member of VIJAYALAKSHMI TOWNSHIPS. Happy Community which is expanding day-by-day.
+                                </p>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <p class="SubheadPara">Useful Links</p><br><br>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <p class="SubheadPara">GET IN TOUCH</p><br><br>
+                        <ul>
+                            <li style="align-items: flex-start !important">
+                                <i class="fa fa-map-marker" style="font-size:30px !important"></i> <a style="padding: 0px 5px;" href="https://goo.gl/maps/A9Gv7WaZxozYHRkM8">
+                                    VIJAYALAKSHMITOWNSHIPS<br> NRT PVT. LTD.<bR>
+                                    Office: 165 & 166, Vasavi Market, Sattenapalli Road
+                                    Issapalem(V), Narasaraopet (M), Palnadu (Dist)-522601, AP
+                                </a>
+                            </li>
+                            <li><i class="fa fa-mobile" style="font-size:30px !important"></i>  <a style="padding: 0px 5px;" href="tel:+917036047222">+917036047222, +91 7036047333</a></li>
+                            <li><i class="fa fa-envelope"> </i> <a style="padding: 0px 5px;" href="mailto:info@vijayalakshmitownships.com">Email: info@vijayalakshmitownships.com</a><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-md-4">&copy; Copyright <strong><span>VIJAYALAKSHMITOWNSHIPS</span></strong>. All Rights Reserved.</div>
+            <div class="col-md-4">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <div class="col-md-4">Powered by <a href="https://marami.biz/">Marami Infotech Ltd. </a></div>
+        </div>
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @*@Scripts.Render("~/bundles/websitesJS")*@
+    
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="~/Content/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="~/Content/vendor/aos/aos.js"></script>
+    <script src="~/Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Content/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/Content/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/Content/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/Content/vendor/php-email-form/validate.js"></script>
+    <!-- Template Main JS File -->
+    <script src="~/Content/js/main.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

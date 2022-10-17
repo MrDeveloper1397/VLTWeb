@@ -1,0 +1,156 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<!-- ======= Common Image Section ======= -->
+<div class="container1">
+    <img src="~/Content/img/Home/common.png" style="height: 350px; margin-top: 100px;" height="100%" width="100%" alt="">
+    <div class="top-left">
+        --------- GET IN TOUCH<br>
+        <h2 style="float: right;"><b>CONTACT</b></h2>
+    </div>
+</div>
+<!-- ======= End Common Image Section ======= -->
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact section-bg">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Contact</h2>
+            <p>
+                <br>
+            </p>
+        </div>
+        <div class="row">
+            <div style="width:12.666%; flex:0 0 auto"></div>
+            <div class="col-md-3">
+                <div class="info-box mb-4">
+                    <i class="bx bx-map"></i>
+                    <h3>Our Address</h3>
+                    <p>
+                        Office: 165 & 166, Vasavi Market, Sattenapalli Road
+                        Issapalem(V), Narasaraopet (M),&nbsp;&nbsp; Palnadu (Dist)-522601, AP
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info-box  mb-4">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>info@vijayalakshmitownships.com</p>
+                    <br />
+                    <br />
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info-box  mb-4">
+                    <i class="bx bx-phone-call"></i>
+                    <h3>Call Us</h3>
+                    <p>+91 7036047222 , +91 7036047333</p>
+                    <br />
+                    <br />
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+       
+        <br>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group mt-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="my-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+            </div><br><br>
+            <div class="col-lg-6 ">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=16.290111, 80.074722&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://mcpenation.com/">MCPE Nation</a></div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            width: 100%;
+                            height: 370px;
+                        }
+
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            width: 100%;
+                            height: 370px;
+                        }
+
+                        .gmap_iframe {
+                            height: 370px !important;
+                        }
+                    </style>
+                </div>
+                @*<p>
+                        <br>
+                        <h1> Our Address</h1>
+                        VIJAYALAKSHMITOWNSHIPS NRT PVT. LTD.
+                        Office: 165 & 166, Vasavi Market, Sattenapalli Road
+                        Issapalem(V), Narasaraopet (M), Palnadu (Dist)-522601, AP
+                        <ul>
+                            <br />
+                            <li>
+                                <!-- <i class="bx bx-chevron-right"></i> -->
+                                <a href="tel:+917036047222">Mobile No. +917036047222, +91 7036047333</a>
+                            </li>
+                            <li>
+                                <!-- <i class="bx bx-chevron-right"></i>  -->
+                                <a href="mailto:info@vijayalakshmitownships.com">Email: info@vijayalakshmitownships.com</a><br>
+                            </li>
+                        </ul>
+                    </p>*@
+            </div>
+            <br>
+        </div><br><br>
+
+        @*<div class="row">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=16.290111, 80.074722&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://mcpenation.com/">MCPE Nation</a></div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            width: 100%;
+                            height: 400px;
+                        }
+
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            width: 100%;
+                            height: 400px;
+                        }
+
+                        .gmap_iframe {
+                            height: 400px !important;
+                        }
+                    </style>
+                </div>
+            </div>*@
+
+    </div>
+</section>
+<!-- End Contact Section -->
